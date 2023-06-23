@@ -16,7 +16,7 @@ To create a job portal application using react, springboot and sql.
 
 ### SPRINGBOOT PROGRAM:
 
-java
+
 ```
 Job.java
 package com.saveetha.jobApplicant.job;
@@ -90,7 +90,7 @@ public class Job {
 ```
 
 ### JobApplicantController.java
-
+```
 java
 package com.saveetha.jobApplicant.job;
 
@@ -127,11 +127,11 @@ public class JobApplicantController {
         jobService.removeJobApplicant(jobApplicantId);
     }
 }
-
+```
 ### REACT PROGRAM:
 
 ### App.js
-
+```
 java
 
 import React from "react"
@@ -164,11 +164,11 @@ function App() {
 }
 
 export default App;
-
+```
 
 
 ### JobApplicantDirectoryComponent.js
-
+```
 java
 
 import React, { useEffect, useState } from 'react';
@@ -206,10 +206,10 @@ function JobDirectoryComponent() {
 };
 
 export defaul JobDirectoryComponent;
-
+```
                                     
 ### JobRegistrationComponent.js
-
+```
 java
 
 import React, { useState } from 'react';
@@ -288,9 +288,9 @@ function JobRegistrationComponent() {
 
 export default JobRegistrationComponent;
 
-
+```
 ### JobDeletionComponent.js
-
+```
 java
 
 import React, { useState } from 'react';
@@ -338,7 +338,7 @@ function JobDeletionComponent() {
 };
 
 export default JobDeletionComponent;
-
+```
 
 ### OUTPUT:
 

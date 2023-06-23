@@ -17,7 +17,7 @@ To create a job portal application using react, springboot and sql.
 ### SPRINGBOOT PROGRAM:
 
 java
-
+```
 Job.java
 package com.saveetha.jobApplicant.job;
 
@@ -87,9 +87,10 @@ public class Job {
                 '}';
     }
 }
-
+```
 
 ### JobApplicantController.java
+
 java
 package com.saveetha.jobApplicant.job;
 
